@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicios 3</title>
+    </head>
+    <body>
+        <head>
+            <h1>Formulario de encuesta con opciones</h1>
+        </head>
+        <main>
+            <section>
+                <form action="ejercicio3.html" method="GET">
+                    <ul>
+                        <li>
+                            <label for="NombreCompleto">Nombre Completo</label>
+                            <input type="text" id="NombreCompleto" name="NombreCompleto" placeholder="Nombre Completo" required />
+                        </li>
+                        <li>
+                            <fieldset>
+                                <legend>Genero</legend>
+                                
+                                <input type="radio" id="GeneroMasculino" name="Genero" value="Masculino" required>
+                                <label for="GeneroMasculino">Masculino</label>
+                                
+                                <input type="radio" id="GeneroFemenino" name="Genero" value="Femenino" required>
+                                <label for="GeneroFemenino">Femenino</label>
+
+                                <input type="radio" id="GeneroOtro" name="Genero" value="Otro" required>
+                                <label for="GeneroOtro">Otro</label>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset>
+                                <legend>Intereses</legend>
+                                
+                                <input type="checkbox" id="InteresesMusica" name="Intereses" value="Musica">
+                                <label for="InteresesMusica">Música</label>
+                                
+                                <input type="checkbox" id="InteresesDeportes" name="Intereses" value="Deportes">
+                                <label for="InteresesDeportes">Deportes</label>
+
+                                <input type="checkbox" id="InteresesTecnologia" name="Intereses" value="Tecnologia">
+                                <label for="InteresesTecnologia">Tecnología</label>
+
+                                <input type="checkbox" id="InteresesViajes" name="Intereses" value="Viajes">
+                                <label for="InteresesViajes">Viajes</label>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <button type="submit">Enviar</button>
+                        </li>
+                    </ul>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

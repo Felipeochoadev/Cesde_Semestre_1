@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mis conocimientos</title>
+        <meta name="description" content="Descubre un poco sobre mis conocimientos como desarrollador me llamo felipe ochoa">
+    </head>
+    <body>
+        <header>
+            <div>
+                <a href="#inicio">
+                    Logo
+                </a>
+            </div>
+            <nav>
+                <li>
+                    <a href="#ComidaFavorita">Comida Favorita</a>
+                </li>
+                <li>
+                    <a href="#MisPasatiempos">Mis pasatiempos</a>
+                </li>
+                <li>
+                    <a href="#MiRecetaFavorita">Mi Receta Favorita</a>
+                </li>
+            </nav>
+            <form action="index.html" method="POST">
+                <input type="text" name="Usuario" placeholder="Usuario" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </header>
+        <main id="inicio">
+            <h1>Hola mundo! me llamo felipe ochoa</h1>
+            <p>
+                En este documento me describire un poco como persona y profesional
+            </p>
+            <section>
+                <h2>Como persona</h2>
+                <p>
+                    Describire brevemente mis gustos.
+                </p>
+                <article id="ComidaFavorita">
+                    <h3>Mi comida Favorita</h3>
+                    <p>
+                        Me gusta la hamburgesa artesanal, con lechuga crespa fresca, una rodaja de queso, y tomate.
+                    </p>
+                    <p>
+                        Tambien me gusta preparar mi propia comida, y comer en casa.
+                    </p>
+                </article>
+                <article id="MisPasatiempos">
+                    <h3>Mis pasatiempos</h3>
+                    <ul>
+                        <li>Programar</li>
+                        <li>Jugar videojuegos</li>
+                        <li>Ver television</li>
+                    </ul>
+                </article>
+                <article id="MiRecetaFavorita">
+                    <h3>Mi receta favorita</h3>
+                    <p>
+                        El ajiaco es una sopa típica y tradicional de la región de Bogotá
+                        <a href="https://es.wikipedia.org/wiki/Ajiaco_(Colombia)" target="_blank">
+                            Mas informacion.
+                        </a>
+                    </p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Ajiacobog.JPG/330px-Ajiacobog.JPG" alt="Sopa de ajiaco base de pollo y diferentes clases de papa. acompañado de arroz y aguacate" width="200">
+                    <br>
+                    <strong>Ingredientes</strong>
+                    <ol>
+                        <li>Pollo</li>
+                        <li>Papas</li>
+                        <li>Mazorca</li>
+                        <li>Guasca</li>
+                        <li>Crema de leche</li>
+                    </ol>
+                </article>
+            </section>
+            <section>
+                <h2>Como estudiante</h2>
+                <p>
+                    Describire un poco mi rutina y mis actividades.
+                </p>
+                <article>
+                    <h2>Dias de clases</h2>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="Martes"> 
+                            Martes
+                        </li>
+                        <li>
+                            <input type="checkbox" name="Miercoles"> 
+                            Miercoles
+                        </li>
+                        <li>
+                            <input type="checkbox" name="Viernes"> 
+                            Viernes
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Como realizar una actividad?</h3>
+                    <div style="border: 1px solid black;">
+                        <ul>
+                            <li>Entender</li>
+                            <li>Planear</li>
+                            <li>Ejecutar</li>
+                        </ul>
+                    </div>
+                    <iframe 
+                        width="560" 
+                        height="315" 
+                        src="https://www.youtube.com/embed/ELSm-G201Ls?si=oJM-99ILkwMFtWoI" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                    >
+                    </iframe>
+                </article>
+            </section>
+            <section>
+                <p style="background-color: black; color: white;">
+                    Curso de HTML para aprender que es una estructura y que significa semantico
+                    <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">
+                        aqui
+                    </a>
+                </p>
+            </section>
+            <section>
+                <h2>Quiero conocerte</h2>
+                <form action="index.html" method="POST">
+                    <input type="text" name="Nombre" placeholder="Nombre" required> 
+                    <input type="email" name="Correo" placeholder="correo@correo.com" required>
+                    <input type="password" name="Clave" placeholder="contraseña " required>
+                    <fieldset>
+                        <legend>Genero</legend>
+                        <input type="radio" name="Genero" value="Masculino" required>Masculino
+                        <input type="radio" name="Genero" value="Femenino" required>Femenino
+                    </fieldset>
+                    <select name="Clase favorita" required>
+                        <option></option>
+                        <option value="IntroduccionProdgramacion">
+                            Introduccion a la programacion
+                        </option>
+                        <option value="Logica">
+                            Logica
+                        </option>
+                        <option value="BaseDatos">
+                            Base Datos
+                        </option>
+                    </select>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Edad</th>
+                            <th>Ciudad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Felipe</td>
+                            <td>35</td>
+                            <td>Medellín</td>
+                        </tr>
+                        <tr>
+                            <td>David</td>
+                            <td>38</td>
+                            <td>Bogota</td>
+                        </tr>
+                        <tr>
+                            <td>Sebastian</td>
+                            <td>32</td>
+                            <td>Cartagena</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <footer>
+            © 2026 Felipe Ochoa. Todos los derechos reservados.
+        </footer>
+    </body>
+</html>

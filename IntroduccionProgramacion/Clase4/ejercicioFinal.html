@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicios Final</title>
+    </head>
+    <body>
+        <head>
+            <h1>Formulario de Registro de Usuario</h1>
+        </head>
+        <main>
+            <section>
+                <form action="ejercicioFinal.html" method="GET">
+                    <ul>
+                        <li>
+                            <label for="NombreCompleto">Nombre Completo</label>
+                            <input type="text" id="NombreCompleto" name="NombreCompleto" placeholder="Nombre Completo" required />
+                        </li>
+                        <li>
+                            <label for="CorreoElectronico">Correo Electronico</label>
+                            <input type="email" id="CorreoElectronico" name="CorreoElectronico" placeholder="Correo Electronico" required />
+                        </li>
+                        <li>
+                            <label for="Clave">Contraseña</label>
+                            <input type="password" id="Clave" name="Clave" placeholder="Contraseña" required />
+                        </li>
+                        <li>
+                            <label for="Edad">Edad</label>
+                            <input type="number" min="10" max="80" id="Edad" name="Edad" placeholder="Edad" required />
+                        </li>
+                        <li>
+                            <label for="FechaNacimiento">Fecha de nacimientos</label>
+                            <input type="date" id="FechaNacimiento" name="FechaNacimiento" placeholder="Fecha de nacimientos" required />
+                        </li>
+                        <li>
+                            <fieldset>
+                                <legend>Genero</legend>
+                                
+                                <input type="radio" id="GeneroMasculino" name="Genero" value="Masculino" required>
+                                <label for="GeneroMasculino">Masculino</label>
+                                
+                                <input type="radio" id="GeneroFemenino" name="Genero" value="Femenino" required>
+                                <label for="GeneroFemenino">Femenino</label>
+
+                                <input type="radio" id="GeneroOtro" name="Genero" value="Otro" required>
+                                <label for="GeneroOtro">Otro</label>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset>
+                                <legend>Intereses</legend>
+                                
+                                <input type="checkbox" id="InteresesMusica" name="Intereses" value="Musica">
+                                <label for="InteresesMusica">Música</label>
+                                
+                                <input type="checkbox" id="InteresesDeportes" name="Intereses" value="Deportes">
+                                <label for="InteresesDeportes">Deportes</label>
+
+                                <input type="checkbox" id="InteresesViajes" name="Intereses" value="Viajes">
+                                <label for="InteresesViajes">Viajes</label>
+
+                                <input type="checkbox" id="InteresesTecnologia" name="Intereses" value="Tecnologia">
+                                <label for="InteresesTecnologia">Tecnología</label>
+
+                                <input type="checkbox" id="InteresesArte" name="Intereses" value="Arte">
+                                <label for="InteresesArte">Arte</label>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <label for="PaisResidencia">País de residencia</label>
+                            <select id="PaisResidencia" name="PaisResidencia" required>
+                                <option value="">Seleciona una opcion</option>
+                                <option value="Colombia">Colombia</option>
+                                <option value="Venezuela">Venezuela</option>
+                                <option value="Ecuador">Ecuador</option>
+                                <option value="Chile">Chile</option>
+                                <option value="Peru">Peru</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="Sugerencias">Sugerencias</label>
+                            <br>
+                            <textarea cols="50" rows="5" id="Sugerencias" name="Sugerencias" placeholder="Dejanos una sugerencia" required></textarea>
+                        </li>
+                        <li>
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Limpiar todos los campos</button>
+                            <button type="button">Mostrar ayuda</button>
+                        </li>
+                    </ul>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

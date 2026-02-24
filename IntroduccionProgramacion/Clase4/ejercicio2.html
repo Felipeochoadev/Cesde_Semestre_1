@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicios 2</title>
+    </head>
+    <body>
+        <head>
+            <h1>Formulario con validaciones</h1>
+        </head>
+        <main>
+            <section>
+                <form action="ejercicio2.html" method="GET">
+                    <ul>
+                        <li>
+                            <label for="NumeroBoletos">Numero de boletos</label>
+                            <input type="number" min="1" max="10" id="NumeroBoletos" name="NumeroBoletos" placeholder=">Numero de boletos" required />
+                        </li>
+                        <li>
+                            <label for="FechaEvento">Fecha del evento</label>
+                            <input type="date" id="FechaEvento" name="FechaEvento" placeholder="Fecha del evento" required />
+                        </li>
+                        <li>
+                            <label for="NombreCompleto">Nombre Completo</label>
+                            <input type="text" id="NombreCompleto" name="NombreCompleto" placeholder="Nombre Completo" required />
+                        </li>
+                        <li>
+                            <button type="submit">Enviar</button>
+                        </li>
+                    </ul>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

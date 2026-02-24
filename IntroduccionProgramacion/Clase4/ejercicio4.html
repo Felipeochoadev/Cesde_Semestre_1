@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicios 4</title>
+    </head>
+    <body>
+        <head>
+            <h1>Formulario con lista desplegable y comentarios</h1>
+        </head>
+        <main>
+            <section>
+                <form action="ejercicio4.html" method="GET">
+                    <ul>
+                        <li>
+                            <label for="CalificarServicio">Califica el servicio</label>
+                            <select id="CalificarServicio" name="CalificarServicio" required>
+                                <option value="">Seleciona una opcion</option>
+                                <option value="1">★☆☆☆☆</option>
+                                <option value="2">★★☆☆☆</option>
+                                <option value="3">★★★☆☆</option>
+                                <option value="4">★★★★☆</option>
+                                <option value="5">★★★★★</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="ComentariosAdicionales">Comentarios adicionales</label>
+                            <br>
+                            <textarea cols="50" rows="5" id="ComentariosAdicionales" name="ComentariosAdicionales" placeholder="Dejanos un comentario" required></textarea>
+                        </li>
+                        <li>
+                            <button type="submit">Enviar</button>
+                        </li>
+                    </ul>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

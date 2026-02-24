@@ -1,0 +1,9 @@
+Año,Acontecimiento
+1991,HTML 1.0: Tim Berners-Lee publica el primer documento con 18 etiquetas.
+1995,HTML 2.0: Se establece el primer estándar oficial por el IETF.
+1997,HTML 3.2: El W3C asume el control y añade tablas y soporte para texto alrededor de imágenes.
+1999,HTML 4.01: Una versión robusta que separa el contenido del diseño (inicio del uso de CSS).
+2000,XHTML 1.0: Un intento de hacer el HTML más estricto basándose en reglas XML.
+2004,Creación del WHATWG: Un grupo rebelde decide crear un estándar más flexible y potente.
+2014,"HTML5: Se convierte en recomendación oficial, introduciendo video, audio y etiquetas semánticas."
+Actualidad,HTML Living Standard: El HTML ya no tiene versiones fijas; evoluciona constantemente.
